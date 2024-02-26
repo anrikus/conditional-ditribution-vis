@@ -93,7 +93,7 @@ st.title("Conditional distribution of Q\u0303 given Q\u2217 and N_jt for the pro
 # Using sidebar for sliders with finer increments
 with st.sidebar:
     dist_mean = st.slider(" Q\u2217 true mean service quality of the provider", min_value=-5.0, max_value=5.0, value=0.0, step=0.1)
-    std_dev = st.slider("Standard Deviation", min_value=1.0, max_value=5.0, value=1.0, step=0.1)
+    std_dev = st.slider("Standard Deviation", min_value=1.0, max_value=5.0, value=3.3, step=0.1)
 
     q_1 = st.slider("Q1 1 star threshold (skyblue region)", min_value=-5.0, max_value=5.0, value=-3.0, step=0.1)
     q_2 = st.slider("Q2 2 star threshold (lightgreen region)", min_value=-5.0, max_value=5.0, value=-1.0, step=0.1)
